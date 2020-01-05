@@ -1,2 +1,2 @@
-2048 game for embedded system,roject Manas
-Deeloped in C
+2048 game for embedded systems,project Manas
+Developed in C
