@@ -73,10 +73,7 @@ void up()
          }
       }
   }
-  //for(int i=0;i<5;i++)
-    //printf("%d",bu[i]);
-
-        //printf("test");
+ 
         if(arrf())
         {
             for(i=0;i<5;i++)
@@ -100,42 +97,6 @@ void up()
         }
 }
 
-/*void down()
-{
-  int temp;
-  for(i=0;i<5;i++)
-  {
-
-      for(j=0;i<5;j++)
-      {
-
-         if(bu[4-j]==0&&bu[4-j-1]!=0)
-         {
-             temp=bu[4-j];
-             bu[4-j]=bu[4-j-1];
-             bu[4-j-1]=temp;
-         }
-      }
-  }
-    if(arrf())
-        {
-         for(i=0;i<5;i++)
-                {
-                 if(bu[4-i]==bu[4-i-1]&&bu[4-i]!=0)
-                 {
-                     bu[4-i]=2*bu[4-i];
-                     for(j=i+1;j<5;j++)
-                     {
-                      bu[4-j]=bu[4-j-1];
-                     }
-                     bu[0]=0;
-
-                 }
-
-                }
-
-        }
-}*/
 void main()
 {
 int x,y;
