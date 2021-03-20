@@ -12,9 +12,9 @@ void display()
         for(int j=0;j<5;j++)
         {
             if(a[i][j]!=0)
-            printf("%d ",a[i][j]);
+            printf("    %d  ",a[i][j]);
             else
-                printf("0 ");
+                printf("    0   ");
     }
     printf("\n");
     }
